@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Banner from'./components/Banner';
+import Cart from './components/Cart';
+import Footer from './components/Footer';
+import Products from './components/Products';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+
+
+
+
+
+const { h1 } = require("motion/react-client");
+
+function App(){
+  return(
+
+    <h1 className="text-3xl text-purple-600" >hello</h1>
   );
-}
 
+};
 export default App;
