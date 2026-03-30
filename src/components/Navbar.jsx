@@ -1,10 +1,8 @@
 function Navbar(){
-    return(
-
-
-        
-    )
-
+  return (
+    <div>
+      <nav>digiTool</nav>
+    </div>
+  );
 }
-
-
+export default Navbar;
