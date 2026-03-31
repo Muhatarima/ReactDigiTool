@@ -28,7 +28,7 @@ function Banner() {
 
         <div className="flex justify-center">
           <img
-            src="/banner.jpg"
+            src=""
             alt="Digital workflow"
             className="w-full max-w-md rounded-2xl object-cover"
           />
