@@ -1,6 +1,6 @@
 function Navbar({cartCount}) {
   return (
-    <div className="navbar flex items-center justify-between bg-white shadow-sm p-3 sticky top-0 z-50">
+    <div className="navbar max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex items-center justify-between bg-white shadow-sm p-3 sticky top-0 z-50">
       
       
       <div className="navbar-start">

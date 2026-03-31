@@ -15,7 +15,7 @@ function App() {
       <Banner />
 
       <button onClick={() => setActiveTab('products')}>Products</button>
-      <button onClick={() => setActiveTab('cart')}>`{cart.length === 0 ? 'Cart' : `Cart(${cart.length})`}`</button>
+      <button onClick={() => setActiveTab('cart')}>{cart.length === 0 ? 'Cart' : `Cart(${cart.length})`}</button>
 
       {activeTab === 'products' ? <Products /> : <Cart />}
 
