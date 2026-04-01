@@ -4,7 +4,7 @@ function Navbar({cartCount}) {
       
       
       <div className="navbar-start">
-        <a className="text-3xl px-4 font-bold text-purple-600">DigiTools</a>
+        <a className="text-3goxl px-4 font-bold text-purple-600">DigiTools</a>
       </div>
 
       
@@ -20,9 +20,17 @@ function Navbar({cartCount}) {
 
     
       <div className="navbar-end gap-3 items-center flex">
-        <button className="btn btn-ghost btn-circle">
-  🛒 <span className="text-red-500">{cartCount}</span>
-</button>
+ <div className="relative">
+  <button className="btn btn-ghost btn-circle text-xl">
+    🛒
+  </button>
+
+  {cartCount > 0 && (
+    <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center">
+      {cartCount}
+    </span>
+  )}
+</div>
         <a href='' className="btn btn-ghost">Login</a>
         <button className="btn bg-purple-600 px-6 py-3  hover:bg-white hover:text-purple-600 hover:border-purple-600 hover:border-2 text-white rounded-full">Get Started</button>
       </div>
