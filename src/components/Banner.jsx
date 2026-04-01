@@ -1,4 +1,5 @@
-function Banner() {
+
+ function Banner() {
   return (
     <section className="bg-white px-6 md:px-12 lg:px-24 py-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
@@ -28,7 +29,7 @@ function Banner() {
 
         <div className="flex justify-center">
           <img
-            src=""
+            src="/assets/banner.png"
             alt="Digital workflow"
             className="w-full max-w-md rounded-2xl object-cover"
           />

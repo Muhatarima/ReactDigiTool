@@ -24,9 +24,11 @@ return(
 
 
 
-        <div   className={activePlan==="Pro"?"bg-purple-600  text-white shadow-sm p-6  my-8 space-y-2 gap-3 rounded-xl":"bg-slate-200 shadow-sm p-6 rounded-xl  "}  onClick={()=>setActivePlan("Pro")} >
+        <div   className={activePlan==="Pro"?"bg-purple-600 relative text-white shadow-sm p-6  my-8 space-y-2 gap-3 rounded-xl":"bg-slate-200 shadow-sm p-6 relative  rounded-xl  "}  onClick={()=>setActivePlan("Pro")} >
 
-
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-200 text-orange-500 text-sm px-4 py-1 rounded-full font-medium">
+  Most Popular
+</span>
 <h3 className="text-2xl font-bold">Pro</h3>
   <p className="mt-3">For growing teams and creators.</p>
     <p className="text-4xl font-bold mt-2">$29<small>/months</small></p>
