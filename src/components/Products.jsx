@@ -1,4 +1,5 @@
 import productsData from '../products.json';
+import App from '../App';
 
 function Products() {
   function getTagStyle(tagType) {
@@ -9,9 +10,9 @@ function Products() {
   }
 
   return (
-    <div className="grid max-w-6xl mx-auto grid-cols-3 my-8 space-y-2 shadow-lg gap-8">
+    <div className="grid max-w-6xl mx-auto grid-cols-3  space-y-2 shadow-lg gap-8">
       {productsData.map((product) => (
-        <div key={product.id} className="card w-96 space-y-3 py-5 px-4 bg-slate-200 shadow-sm">
+        <div key={product.id} className="card w-96 space-y-3  py-5 px-4 bg-slate-200 shadow-sm">
           <div className="card-body">
             <span className={`badge badge-xs rounded-full my-3  p-1 ${getTagStyle(product.tagType)}`}>
               {product.tag}
@@ -33,7 +34,7 @@ function Products() {
             </ul>
 
             <div className="mt-6">
-              <button className="bg-purple-600 text-white border border-purple-600 rounded-full px-20 py-3  hover:bg-white hover:text-purple-600 hover:border-purple-600 hover:border-2  font-medium">
+              <button onClick={()=>handleAddToCart(product)} className="bg-purple-600 text-white border border-purple-600 rounded-full px-20 py-3  hover:bg-white hover:text-purple-600 hover:border-purple-600 hover:border-2  font-medium">
                 Buy Now
               </button>
             </div>
