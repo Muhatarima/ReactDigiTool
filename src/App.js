@@ -24,8 +24,11 @@ function App() {
     <div>
       <Navbar cartCount={cart.length} />
       <Banner />
+      <h2 className='font-bold text-5xl text-center mt-7 mb-7'>Premium Digital Tools</h2>
+        <p className='text-center mb-8'>Choose from our curated collection of premium digital products designed <br></br>to boost your productivity and creativity.</p>
 
-      <div className='flex items-center justify-center gap-1'>
+      <div className='flex items-center justify-center gap-1 mb-7'>
+        
         <button
           className='btn text-center bg-purple-600 py-3 px-10 border-2 hover:bg-white hover:text-purple-600 text-white rounded-full border-none'
           onClick={() => setActiveTab('products')}
@@ -46,10 +49,11 @@ function App() {
       ) : (
         <Cart cart={cart} removeCart={removeCart} />
       )}
-
-      <Steps />
-      <Pricing />
-      <Footer />
+{activeTab === 'products' && <Steps />}
+{activeTab === 'products' && <Pricing />}
+{activeTab === 'products' && <Footer />}
+      
+      
     </div>
   );
 }
