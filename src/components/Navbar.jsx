@@ -4,7 +4,7 @@ function Navbar({cartCount}) {
       
       
       <div className="navbar-start">
-        <a className="text-3goxl px-4 font-bold text-purple-600">DigiTools</a>
+        <a className="text-3xl px-4 font-bold text-purple-600">DigiTools</a>
       </div>
 
       

@@ -21,8 +21,8 @@
             <button className="btn bg-purple-600 py-3 px-10 border-2 hover:bg-white hover:text-purple-600 text-white rounded-full border-none ">
               Explore Products
             </button>
-            <button className="btn btn-outline hover:bg-purple-600 hover:text-white py-3 px-10 border-2 border-purple-500 text-purple-600 rounded-full ">
-              Watch Demo
+            <button className="btn btn-outline hover:bg-purple-600 hover:text-white py-3 px-10 flex items-center justify-center gap-2 border-2 border-purple-500 text-purple-600 rounded-full ">
+             <img src="/assets/Play.png" alt="" /> <p>Watch Demo</p>
             </button>
           </div>
         </div>
