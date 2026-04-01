@@ -9,9 +9,9 @@ function Products({ handleAddToCart }) {
   }
 
   return (
-    <div className="grid max-w-6xl mx-auto grid-cols-3 space-y-2 shadow-lg gap-8">
+    <div className="grid max-w-6xl mx-auto mt-4 justify-center items-center grid-cols-1  lg:grid-cols-3 space-y-2 shadow-lg gap-8">
       {productsData.map((product) => (
-        <div key={product.id} className="card w-96 space-y-3 py-5 px-4 bg-slate-200 shadow-sm">
+        <div key={product.id} className="card w-96 space-y-3 py-5 text-center px-4 bg-slate-200 shadow-sm">
           <div className="card-body">
             <span className={`badge badge-xs rounded-full my-3 p-1 ${getTagStyle(product.tagType)}`}>
               {product.tag}

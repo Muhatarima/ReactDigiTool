@@ -10,21 +10,21 @@ import Stats from './components/Stats';
 
 function App() {
   const [cart, setCart] = useState([]);
-  const [activeTab, setActiveTab] = useState('products');
+    const [activeTab, setActiveTab] = useState('products');
 
   function handleAddToCart(product) {
     setCart([...cart, product]);
   }
 
   function removeCart(id) {
-    const remaining = cart.filter((item) => item.id !== id);
-    setCart(remaining);
+      const remaining = cart.filter((item) => item.id !== id);
+     setCart(remaining);
   }
 
   return (
     <div>
       <Navbar cartCount={cart.length} />
-      <Banner />
+          <Banner />
       <Stats />
 
       <h2 className='font-bold text-5xl text-center mt-7 mb-7'>Premium Digital Tools</h2>
