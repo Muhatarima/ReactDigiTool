@@ -1,10 +1,10 @@
 function Navbar({cartCount}) {
   return (
-    <div className="navbar max-w-7xl mx-auto px-6 md:px-12 lg:px-24 flex items-center justify-between bg-white shadow-sm p-3 sticky top-0 z-50">
+    <div className="navbar px-6 md:px-12 lg:px-24 flex items-center justify-between bg-white shadow-sm p-3 sticky top-0 z-50">
       
       
       <div className="navbar-start">
-        <a className="text-2xl font-bold text-purple-600">DigiTools</a>
+        <a className="text-3xl px-4 font-bold text-purple-600">DigiTools</a>
       </div>
 
       
