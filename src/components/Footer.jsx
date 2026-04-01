@@ -3,22 +3,22 @@ function Footer() {
     <>
       <section className="bg-gradient-to-r from-[#4F39F6] to-[#C117F5] text-white py-16">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 mt-6">
             Ready To Transform Your Workflow?
           </h2>
 
-          <p className="text-sm md:text-base text-white/90 max-w-2xl mx-auto mb-8">
+          <p className="text-sm md:text-base text-white/90 max-w-2xl mx-auto mb-12">
             Join thousands of professionals who are already using DigiTools to work smarter.
             <br />
             Start your free trial today.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-5">
-            <button className="btn bg-white text-purple-600 border-none rounded-full px-7 hover:bg-white">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-9">
+            <button className="btn bg-white text-purple-600 border-none rounded-full py-3 px-10 hover:bg-white">
               Explore Products
             </button>
 
-            <button className="btn btn-outline text-white border-white rounded-full px-7 hover:bg-white hover:text-purple-600">
+            <button className="btn btn-outline text-white border-white rounded-full py-3 px-10 border-2 hover:bg-white hover:text-purple-600">
               View Pricing
             </button>
           </div>
@@ -33,7 +33,7 @@ function Footer() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
             <div className="lg:col-span-2">
-              <h2 className="text-5xl font-bold mb-5">DigiTools</h2>
+              <h2 className="text-5xl font-bold mb-9">DigiTools</h2>
               <p className="text-slate-300 leading-8 max-w-sm">
                 Premium digital tools for creators,
                 <br />

@@ -24,7 +24,7 @@ function Navbar({cartCount}) {
   🛒 <span className="text-red-500">{cartCount}</span>
 </button>
         <a href='' className="btn btn-ghost">Login</a>
-        <button className="btn bg-purple-600 p-3 text-white rounded-full">Get Started</button>
+        <button className="btn bg-purple-600 px-6 py-3  hover:bg-white hover:text-purple-600 hover:border-purple-600 hover:border-2 text-white rounded-full">Get Started</button>
       </div>
 
     </div>

@@ -1,7 +1,7 @@
 function Banner() {
   return (
     <section className="bg-white px-6 md:px-12 lg:px-24 py-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         <div>
           <span className="inline-block text-sm bg-purple-100 text-purple-600 px-4 py-1 rounded-full mb-4">
             New: AI-Powered Tools Available
@@ -17,10 +17,10 @@ function Banner() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="btn bg-purple-600 hover:bg-purple-700 text-white rounded-full border-none px-6">
+            <button className="btn bg-purple-600 py-3 px-10 border-2 hover:bg-white hover:text-purple-600 text-white rounded-full border-none ">
               Explore Products
             </button>
-            <button className="btn btn-outline border-purple-500 text-purple-600 rounded-full px-6">
+            <button className="btn btn-outline hover:bg-purple-600 hover:text-white py-3 px-10 border-2 border-purple-500 text-purple-600 rounded-full ">
               Watch Demo
             </button>
           </div>
